@@ -4,7 +4,7 @@ Here's the updated GitHub README with the image path specified:
 
 # Movie Trend Analysis
 
-![image](https://github.com/user-attachments/assets/d52e21da-3720-48a8-9c56-eb35838bd0cb)
+![image](https://github.com/user-attachments/assets/82b1d6b6-4167-4b95-9a6d-f1afe02da714)
 
 
 ## Overview
