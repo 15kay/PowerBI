@@ -14,33 +14,31 @@
             height: 100vh;
             margin: 0;
         }
-   .container {
+        .container {
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        position: relative;
-      overflow: hidden;
-   }
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        }
         iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
-  
     <div class="container">
-        <iframe class="responsive-iframe" title="Movies" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=3433edb9-b8d7-4f39-b980-9d5b27fcf92f&autoAuth=true&ctid=48e89992-1e2b-4908-803a-7957e2cc1cbd" allowFullScreen="true"></iframe>
+        <iframe title="Movies" src="https://app.powerbi.com/reportEmbed?reportId=3433edb9-b8d7-4f39-b980-9d5b27fcf92f&autoAuth=true&ctid=48e89992-1e2b-4908-803a-7957e2cc1cbd" allowFullScreen="true"></iframe>
     </div>
 </body>
 </html>
