@@ -4,7 +4,8 @@ Here's the updated GitHub README with the image path specified:
 
 # Movie Trend Analysis
 
-![Dashboard](powerbi.png)
+![image](https://github.com/user-attachments/assets/d52e21da-3720-48a8-9c56-eb35838bd0cb)
+
 
 ## Overview
 This project aims to analyze trends in movie production and popularity over the decades using a synthetic dataset of 30,000 movies released between 1980 and 2020. The dataset includes various details about the movies, such as titles, directors, genres, release dates, durations, and ratings.
